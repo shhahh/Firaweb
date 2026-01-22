@@ -11,7 +11,7 @@ const founders = [
         socials: ['linkedin', 'twitter']
     },
     {
-        name: 'Shah Raza',
+        name: 'Alam Shah',
         role: 'Co-Founder & CTO',
         desc: 'Technical architect pushing the boundaries of web.',
         image: shahImg,

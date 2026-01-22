@@ -40,7 +40,7 @@ const ContactForm = () => {
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                                     </svg>
                                 </div>
-                                <span className="text-gray-300">Dehradun, India</span>
+                                <span className="text-gray-300">New Delhi, India</span>
                             </div>
                             <div className="flex items-center gap-4 group">
                                 <div className="w-12 h-12 rounded-full bg-white/[0.03] border border-white/5 flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
@@ -50,7 +50,7 @@ const ContactForm = () => {
                                 </div>
                                 <div className="flex flex-col">
                                     <div className="flex flex-col gap-1">
-                                        <a href="tel:+917505449831" className="text-gray-300 hover:text-primary transition-colors">+91 750 544 9831</a>
+                                    
                                         <a href="tel:+918630628812" className="text-gray-300 hover:text-primary transition-colors">+91 863 062 8812</a>
                                     </div>
                                 </div>
@@ -72,7 +72,7 @@ const ContactForm = () => {
                                     <label className="text-xs uppercase tracking-widest text-gray-500 font-bold ml-1">Name</label>
                                     <input
                                         type="text"
-                                        placeholder="Shah Raza"
+                                        placeholder="Alam Shah"
                                         className="w-full bg-black/40 border border-white/10 rounded-2xl px-6 py-4 text-white placeholder:text-gray-700 focus:outline-none focus:border-primary/50 transition-all"
                                     />
                                 </div>

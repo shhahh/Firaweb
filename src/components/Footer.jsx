@@ -46,7 +46,7 @@ const Footer = () => {
                     <div>
                         <h3 className="text-white font-bold mb-6">Services</h3>
                         <ul className="space-y-4 text-gray-400">
-                            {['Web Dev', 'Graphic Design', 'Motion Graphics', 'Video Editing', 'SEO', 'Branding'].map((item) => (
+                            {['Web Development', 'Graphic Design', 'Motion Graphics', 'Video Editing', 'Branding'].map((item) => (
                                 <li key={item}>
                                     <a href="#" className="hover:text-primary transition-colors">{item}</a>
                                 </li>
@@ -60,18 +60,11 @@ const Footer = () => {
                         <ul className="space-y-4 text-gray-400">
                             <li className="flex items-start">
                                 <span className="block w-20 text-gray-500">Location:</span>
-                                <span>Dehradun</span>
+                                <span>New Delhi, India</span>
                             </li>
                             <li className="flex items-start">
                                 <span className="block w-20 text-gray-500">Email:</span>
                                 <a href="mailto:info@firaweb.com" className="hover:text-primary">info@firaweb.com</a>
-                            </li>
-                            <li className="flex items-start">
-                                <span className="block w-20 text-gray-500">Phone:</span>
-                                <div className="flex flex-col">
-                                    <a href="tel:+917505449831" className="hover:text-primary">+91 750 544 9831</a>
-                                    <a href="tel:+918630628812" className="hover:text-primary">+91 863 062 8812</a>
-                                </div>
                             </li>
                         </ul>
 
