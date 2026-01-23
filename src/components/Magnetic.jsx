@@ -8,8 +8,8 @@ const Magnetic = ({ children }) => {
     const handleMouse = (e) => {
         const { clientX, clientY } = e;
         const { height, width, left, top } = ref.current.getBoundingClientRect();
-        const middleX = clientX - (left + width / 2);
-        const middleY = clientY - (top + height / 2);
+        const middleX = (clientX - (left + width / 2)) * 0.35;
+        const middleY = (clientY - (top + height / 2)) * 0.35;
         setPosition({ x: middleX, y: middleY });
     };
 
@@ -26,7 +26,7 @@ const Magnetic = ({ children }) => {
             onMouseMove={handleMouse}
             onMouseLeave={reset}
             animate={{ x, y }}
-            transition={{ type: "spring", stiffness: 150, damping: 15, mass: 0.1 }}
+            transition={{ type: "spring", stiffness: 100, damping: 20, mass: 0.1 }}
         >
             {children}
         </motion.div>

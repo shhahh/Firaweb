@@ -41,8 +41,8 @@ const services = [
 
 const Expertise = () => {
     return (
-        <section id="services" className="py-24 px-6 bg-background relative overflow-hidden">
-            <div className="container mx-auto">
+        <section id="services" className="py-24 px-0 bg-background relative overflow-hidden">
+            <div className="w-full px-6 md:px-12">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -50,7 +50,7 @@ const Expertise = () => {
                     transition={{ duration: 0.6 }}
                     className="mb-16 text-center md:text-left"
                 >
-                    <h2 className="text-4xl md:text-6xl font-bold mb-6">
+                    <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6">
                         <span className="text-white">Design. Development.</span> <br />
                         <span className="text-gray-500">Branding. That Delivers.</span>
                     </h2>

@@ -46,7 +46,7 @@ const Journey = () => {
             {/* Grain Overlay */}
             <div className="absolute inset-0 z-50 pointer-events-none opacity-[0.03] grayscale bg-[url('https://www.transparenttextures.com/patterns/asfalt-dark.png')] animate-[grain_8s_steps(10)_infinite]" />
 
-            <div className="container mx-auto px-6 relative z-10">
+            <div className="w-full px-6 md:px-12 relative z-10">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -54,7 +54,7 @@ const Journey = () => {
                     className="text-center mb-24"
                 >
                     <h2 className="text-sm font-bold tracking-[0.3em] text-primary mb-4 uppercase">The Genesis</h2>
-                    <h3 className="text-5xl md:text-7xl font-bold text-white mb-6 grayscale">
+                    <h3 className="text-3xl sm:text-5xl md:text-7xl font-bold text-white mb-6 grayscale text-balance">
                         Our Journey: <br />
                         <span className="text-gray-600">Built on Grit & Hustle.</span>
                     </h3>

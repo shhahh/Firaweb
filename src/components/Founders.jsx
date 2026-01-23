@@ -21,19 +21,19 @@ const founders = [
 
 const Founders = () => {
     return (
-        <section id="career" className="py-24 px-6 bg-background">
-            <div className="container mx-auto">
+        <section id="career" className="py-24 px-0 bg-background">
+            <div className="w-full px-6 md:px-12">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">The Minds Behind Fira</h2>
+                    <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold text-white mb-4">The Minds Behind Fira</h2>
                     <p className="text-gray-400">Led by passion, driven by excellence.</p>
                 </motion.div>
 
-                <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+                <div className="grid sm:grid-cols-2 gap-12 max-w-4xl mx-auto">
                     {founders.map((founder, index) => (
                         <motion.div
                             key={index}

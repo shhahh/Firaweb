@@ -16,15 +16,15 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <Expertise />
         <About />
-        <section id="portfolio" className="py-24 px-6 bg-surface text-center">
-          <div className="container mx-auto">
+        <Expertise />
+        <section id="portfolio" className="py-24 px-6 md:px-12 bg-surface text-center">
+          <div className="w-full">
             <h2 className="text-4xl md:text-6xl font-bold text-white mb-8">Portfolio</h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-12">
               Our latest masterpieces in design and development. Coming soon...
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
                 { title: "Digital Banking App", img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop" },
                 { title: "E-Commerce Rebrand", img: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop" },

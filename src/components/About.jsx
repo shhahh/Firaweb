@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 
 const About = () => {
     return (
-        <section id="about" className="py-24 px-6 bg-surface relative">
-            <div className="container mx-auto grid md:grid-cols-2 gap-16 items-center">
+        <section id="about" className="py-24 px-0 bg-surface relative">
+            <div className="w-full px-6 md:px-12 grid lg:grid-cols-2 gap-16 items-center">
                 {/* Left Side: Text */}
                 <motion.div
                     initial={{ opacity: 0, x: -50 }}

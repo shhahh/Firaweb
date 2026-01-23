@@ -2,12 +2,12 @@ import { motion } from 'framer-motion';
 
 const ContactForm = () => {
     return (
-        <section id="contact" className="py-24 px-6 bg-background relative overflow-hidden">
+        <section id="contact" className="py-24 px-0 bg-background relative overflow-hidden">
             {/* Background Accents */}
             <div className="absolute top-1/2 right-0 w-64 h-64 bg-primary/5 rounded-full blur-[100px]" />
 
-            <div className="container mx-auto max-w-5xl">
-                <div className="grid md:grid-cols-2 gap-16 items-center">
+            <div className="w-full px-6 md:px-12 max-w-7xl mx-auto">
+                <div className="grid lg:grid-cols-2 gap-16 items-center">
                     {/* Left Side: Text Content */}
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
@@ -16,7 +16,7 @@ const ContactForm = () => {
                         transition={{ duration: 0.8 }}
                     >
                         <h2 className="text-sm font-bold tracking-widest text-primary mb-4 uppercase">Let's Connect</h2>
-                        <h3 className="text-4xl md:text-6xl font-bold text-white mb-8 leading-tight text-balance">
+                        <h3 className="text-3xl md:text-6xl font-bold text-white mb-8 leading-tight text-balance">
                             Have a project in mind? <br />
                             <span className="text-gray-500 underline decoration-primary/30 underline-offset-8">Let's build it.</span>
                         </h3>
@@ -50,7 +50,7 @@ const ContactForm = () => {
                                 </div>
                                 <div className="flex flex-col">
                                     <div className="flex flex-col gap-1">
-                                    
+
                                         <a href="tel:+918630628812" className="text-gray-300 hover:text-primary transition-colors">+91 863 062 8812</a>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@ const ContactForm = () => {
                         className="bg-white/[0.02] border border-white/5 rounded-[40px] p-8 md:p-12 backdrop-blur-xl relative"
                     >
                         <form className="space-y-6">
-                            <div className="grid grid-cols-2 gap-6">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                                 <div className="space-y-2">
                                     <label className="text-xs uppercase tracking-widest text-gray-500 font-bold ml-1">Name</label>
                                     <input
